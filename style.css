@@ -1,0 +1,119 @@
+h1{
+    font-size: 2em;
+}
+
+.footer{
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+
+body{
+    background-image: url(https://muralsyourway.vtexassets.com/arquivos/ids/274926/Pacman-Game-Wall-Mural.jpg?v=638229015907170000);
+    background-repeat: repeat;
+    background-size:  300px;
+
+}
+
+
+
+
+section{
+width: 80%;
+height: 800px;
+align-items: center;
+background-color: yellow;
+margin-left: 10%;
+font-family:  "Permanent Marker", cursive;
+font-weight: 400;
+font-style: normal;
+}
+
+.time{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+button{
+    width: 70%;
+    height: 80px;
+    font-size: 40px;
+    font-family:  "Permanent Marker", cursive;
+    margin-left: 15%;
+    border-radius: 15px;
+    border:outset ;
+    background-color: black;
+    color: blue;
+}
+
+.pac{
+    width: 30%;
+    margin-left: 35%;
+
+
+}
+
+}
+
+
+
+@media (max-width: 599px) {
+
+    body{
+        background-image: url(https://muralsyourway.vtexassets.com/arquivos/ids/274926/Pacman-Game-Wall-Mural.jpg?v=638229015907170000);
+        background-repeat: repeat;
+        background-size:  300px;
+    
+    }
+    
+    
+    
+    
+    section{
+    width: 90%;
+    height: 800px;
+    align-items: center;
+    background-color: yellow;
+    margin-left: 5%;
+    font-family:  "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .time{
+        font-size: 70px;
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+    h1{
+        text-align: center;
+        color: blue;
+    }
+    
+    button{
+        width: 90%;
+        height: 80px;
+        font-size: 30px;
+        font-family:  "Permanent Marker", cursive;
+        margin-left: 5%;
+        border-radius: 15px;
+        border:outset ;
+        background-color: black;
+        color: blue;
+    }
+    
+    .pac{
+        width: 50%;
+        margin-left: 25%;
+    
+    
+    }
+    
+    }
